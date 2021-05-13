@@ -1,0 +1,35 @@
+{
+  "name": "website-scraper-puppeteer",
+  "version": "0.1.5",
+  "description": "Plugin for website-scraper which returns html for dynamic websites using puppeteer",
+  "readmeFilename": "README.md",
+  "main": "lib/index.js",
+  "keywords": [
+    "website-scraper",
+    "puppeteer",
+    "chromium",
+    "chrome",
+    "headless",
+    "html"
+  ],
+  "dependencies": {
+    "debug": "^4.1.1",
+    "puppeteer": "^2.0.0"
+  },
+  "peerDependencies": {
+    "website-scraper": "^4.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "finalhandler": "^1.1.2",
+    "fs-extra": "^7.0.1",
+    "mocha": "^5.2.0",
+    "serve-static": "^1.13.2",
+    "website-scraper": "^4.0.0"
+  },
+  "scripts": {
+    "test": "mocha --timeout 10000 --exit"
+  },
+  "author": "Sibongumusa Lungelo <smlmnguni14@gmail.com>",
+  "license": "MIT"
+}
